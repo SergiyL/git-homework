@@ -1,0 +1,39 @@
+> git init - ініціалізація порожнього репозиторію .git в робочу директорію
+
+$ git status - перевірка поточного статусу проекту
+
+$ git add octocat.txt  - додавання до "буферу обміну" (staging area) створеного файлу
+
+$ git commit -m "Add cute octocat story" - переміщення даних з staging area до репозиторію з додаванням коментарів
+
+$ git add '*.txt' - додавання до staging area всіх файлів з розширенням .txt
+
+$ git commit -m 'Add all the octocat txt files' - новий commit з коментарями
+
+$ git log - показує історію додавань до локального репозиторію
+
+$ git remote add origin https://github.com/try-git/try_git.git - прив'язка локального репозиторію до віддаленного (серверного)
+
+$ git push -u origin master - відсилання даних локального репозиторію на серверний на гілку master
+
+$ git pull origin master - перевірка наявності змін на серверному репозиторії та стягування їх в локальний
+
+$ git diff HEAD - перевірка змін від часу останнього коміту
+
+$ git diff --staged - перевірка нових змін (додавання файлу)
+
+$ git reset octofamily/octodog.txt - скасовується коміт файлу
+
+$ git checkout -- octocat.txt - відкат файлу до стану попереднього коміту
+
+$ git branch clean_up - створення гілки
+
+$ git checkout clean_up - перехід на гілку
+
+$ git rm '*.txt' - видалення .txt файлів
+
+$ git merge clean_up - злиття гілок
+
+$ git branch -d clean_up - видалення гілки
+
+
